@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/bukalapak/topupcashierless.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[prompt]
+	showinfo = true
+[branch "SRR/SRR-32_Bill_Acceptor_API"]
+	remote = origin
+	merge = refs/heads/SRR/SRR-32_Bill_Acceptor_API
